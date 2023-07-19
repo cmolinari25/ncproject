@@ -1,0 +1,60 @@
+body {
+  font-family: "Cabin", italic; }
+
+h1 {
+  color: white;
+}
+  
+.bolded {
+  font-weight: bold;
+}
+
+header h2 {
+  color: #CEC8FF; }
+
+.site-footer {
+  background-image: linear-gradient(#CEC8FF, white);
+  padding: 20px 0; }
+
+.jumbotron {
+  background-image: url(/img/IMGSnowJumbotron.png);
+  background-size: cover;
+  height: 100%;  
+  margin: 10px;
+  padding: 20px; 
+}
+
+.row-content {
+  padding: 50px 0;
+  border-bottom: 1px ridge;
+  min-height: 200px; }
+
+.tab-content {
+  border: 1px solid #DDD;
+  border-top: none;
+  padding: 10px; }
+
+.navbar {
+  background-image: linear-gradient(#270cef, rgb(101, 94, 94));
+  color: black; }
+
+
+.carousel {
+  border: solid #5637dd; }
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5); }
+
+#carouselButton {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 100; }
+
+#reserveModal .modal-header {
+  background-color: grey;
+  color: white; }
+
+#loginModal .modal-header {
+  background-color: grey;
+  color: white; }
